@@ -1,0 +1,81 @@
+.grid {
+  display:grid;
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  grid-gap: 10px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 150px auto 150px;
+  grid-template-areas:
+	"a a a a a a a a a a a a"
+	"b c c c c c c c c c c c"
+	"b d d d d d d d d d d d"
+	"b d d d d d d d d d d d"
+
+	
+}
+.a{
+	grid-area: a;
+	font-family: 'Marcellus SC', serif;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+
+}
+.b{
+	grid-area: b;
+	font-family: 'Cookie', cursive;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	height:800 px;
+	width:100 px;
+}
+
+.c{
+	grid-area: c;
+	font-family: 'Marcellus SC', serif;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+.d{
+	grid-area: d;
+}
+
+.box {
+  background-color: #d1e0de;
+  color: black;
+  border-radius: 5px;
+  border: 2px black
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 70;
+  width: 80;
+}
+
+img 1 {
+	display: block;
+	margin-left: auto;
+	
+	
+}
+
+p {
+   font-family: 'Old Standard TT', serif;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 40px;
+	color: black;
+	
+   
+

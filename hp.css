@@ -1,0 +1,79 @@
+.box {
+  background-color: #bfd5f2;
+  color: black;
+  border-radius: 5px;
+  border: 2px black
+}
+.grid {
+  display:grid;
+  background-color: white;
+  height: 1200px;
+  width: 1800px;
+  grid-gap: 10px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 150px auto;
+  grid-template-areas:
+	"a a a a a a a a a a a a"
+	"b b b b b c c c c c c c"
+
+}
+.a{
+	grid-area: a;
+	font-family: 'Marcellus SC', serif;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+
+}
+.b{
+	grid-area: b;
+	font-family: 'Cookie', cursive;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	height:800;
+	width:200;
+}
+
+.c{
+	grid-area: c;
+	font-family: 'Marcellus SC', serif;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	width:1600;
+}
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 70;
+  width: 80;
+}
+
+p {
+   font-family: 'Old Standard TT', serif;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 40px;
+	color: black;
+}
+
+ul {
+	font-family: 'Old Standard TT', serif;
+   font-size: 20px;
+   font-weight: bold;
+}
+  
+ img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 160;
+  width: 300;
+}
+	
